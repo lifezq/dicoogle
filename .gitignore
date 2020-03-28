@@ -9,6 +9,7 @@ app/bower_components
 .settings/*
 dicoogle/.classpath
 dicoogle/.settings/*
+dicoogle/target
 sdk-ext/.classpath
 sdk-ext/.settings/*
 sdk/.classpath

@@ -25,14 +25,14 @@
     <repositories>
         <repository>
             <id>mavencentral</id>
-            <url>http://repo1.maven.org/maven2/</url>
+            <url>https://repo1.maven.org/maven2/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
         </repository>
         <repository>
             <id>dcm4che</id>
-            <url>http://www.dcm4che.org/maven2/</url>
+            <url>https://www.dcm4che.org/maven2/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -70,7 +70,7 @@
 
     <build>
         <finalName>${project.artifactId}</finalName>
-
+        <defaultGoal>compile</defaultGoal>
         <resources>
             <resource>
                 <directory>src/main/java/pt/ua/dicoogle/config</directory>

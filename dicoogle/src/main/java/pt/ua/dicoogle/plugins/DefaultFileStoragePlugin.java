@@ -133,7 +133,7 @@ public class DefaultFileStoragePlugin extends PluginBase implements StorageInter
 		}		
 	}
 
-	@Override
+//	@Override
 	public Stream<URI> list(URI location) throws IOException {
 		if (!location.getScheme().equals(defaultScheme)) {
 			return Stream.empty();
